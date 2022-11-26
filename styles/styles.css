@@ -1,1 +1,124 @@
-/*# sourceMappingURL=styles.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #ECF2F8;
+}
+
+main {
+  min-width: 327px;
+  max-width: 327px;
+  background: #FFFFFF;
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+}
+main img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+main .content {
+  margin: 36px 32px 32px 32px;
+}
+main .content h3 {
+  margin: 0;
+  margin-bottom: 12px;
+  color: #48556A;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+main .content p {
+  margin: 0;
+  color: #6E8098;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+}
+main footer .passive-footer {
+  display: flex;
+  align-items: center;
+  display: none;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+}
+main footer .passive-footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 32px;
+}
+main footer .passive-footer .name-and-date {
+  margin-left: 16px;
+}
+main footer .passive-footer .name-and-date h3 {
+  color: #48556A;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  margin: 0;
+}
+main footer .passive-footer .name-and-date h5 {
+  color: #9DAEC2;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  margin: 0;
+}
+main footer .passive-footer .share-button-passive {
+  width: 15px;
+  height: 13px;
+  padding: 10px;
+  margin-left: auto;
+  background: #ECF2F8;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 12px;
+}
+main footer .active-footer {
+  background: #48556A;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+main footer .active-footer h2 {
+  margin-left: 32px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  color: #9DAEC2;
+  text-transform: uppercase;
+}
+main footer .active-footer img {
+  width: 20px;
+  height: 20px;
+  border-radius: 0;
+  margin-left: 16px;
+}
+main footer .active-footer img[alt=Facebook] {
+  margin-left: 21px;
+}
+main footer .active-footer img[alt=Twitter] {
+  margin-top: 2.25px;
+  margin-bottom: 1.5px;
+}
+main footer .active-footer .share-button-active {
+  width: 15px;
+  height: 13px;
+  color: white;
+  padding: 10px;
+  background: #6E8098;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 12px;
+}/*# sourceMappingURL=styles.css.map */
