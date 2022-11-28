@@ -1,15 +1,24 @@
-const shareButtonPassive = document.querySelector(".share-button-passive");
-const shareButtonActive = document.querySelector(".share-button-active");
-const passiveFooter = document.querySelector(".passive-footer");
-const activeFooter = document.querySelector(".active-footer");
+//socialmediashare
+//persondata
+//sharebutton
 
+const passive = document.querySelector(".person-data");
+const active = document.querySelector(".social-media-share");
+const btn = document.querySelector(".share-button");
 
-shareButtonPassive.addEventListener("click", () => {
-  passiveFooter.style.display = "none";
-  activeFooter.style.display = "flex";
+btn.addEventListener("click", () => {
+  if(passive.style.display = "flex") {
+    active.style.display = "flex";
+    passive.style.display = "none"
+  }
+
+  btn.addEventListener("click", () => {
+    if(active.style.display = "flex") {
+      active.style.display = "none";
+      passive.style.display = "flex"
+    }
+  })
 })
 
-shareButtonActive.addEventListener("click", () => {
-  activeFooter.style.display = "none";
-  passiveFooter.style.display = "flex";
-})
+
+

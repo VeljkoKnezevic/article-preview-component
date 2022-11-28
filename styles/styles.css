@@ -10,7 +10,7 @@ body {
 }
 
 main {
-  min-width: 327px;
+  width: 80%;
   max-width: 327px;
   background: #FFFFFF;
   box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
@@ -41,84 +41,82 @@ main .content p {
   line-height: 20px;
   letter-spacing: 0.121875px;
 }
-main footer .passive-footer {
+main .user {
   display: flex;
   align-items: center;
-  display: none;
-  border-radius: 0px 0px 10px 10px;
+}
+main .user .person-data {
+  margin: 22px 0 10px 22px;
   padding: 10px;
 }
-main footer .passive-footer img {
+main .user .name-and-date {
+  margin-left: 16px;
+}
+main .user .profile-picture {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-left: 32px;
 }
-main footer .passive-footer .name-and-date {
-  margin-left: 16px;
-}
-main footer .passive-footer .name-and-date h3 {
-  color: #48556A;
+main .user h3 {
   font-weight: 700;
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0.121875px;
+  color: #48556A;
   margin: 0;
 }
-main footer .passive-footer .name-and-date h5 {
-  color: #9DAEC2;
+main .user h5 {
   font-weight: 500;
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0.121875px;
+  color: #9DAEC2;
   margin: 0;
 }
-main footer .passive-footer .share-button-passive {
-  width: 15px;
-  height: 13px;
-  padding: 10px;
+main .user .share-button {
   margin-left: auto;
+  margin-right: 22px;
+  order: 1;
+}
+main .user .share-button img[alt=Share] {
+  height: 13px;
+  width: 15px;
+  padding: 9.5px 8.5px;
   background: #ECF2F8;
   border-radius: 50%;
-  cursor: pointer;
-  margin-right: 12px;
 }
-main footer .active-footer {
-  background: #48556A;
-  border-radius: 0px 0px 10px 10px;
-  display: flex;
-  align-items: center;
-  padding: 10px;
+main .user .social-media-share {
+  display: none;
+  background-color: #48556A;
 }
-main footer .active-footer h2 {
-  margin-left: 32px;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 20px;
-  letter-spacing: 5px;
-  color: #9DAEC2;
-  text-transform: uppercase;
-}
-main footer .active-footer img {
+main .user .social-media-share img {
   width: 20px;
   height: 20px;
-  border-radius: 0;
-  margin-left: 16px;
+  border-radius: 100%;
 }
-main footer .active-footer img[alt=Facebook] {
-  margin-left: 21px;
-}
-main footer .active-footer img[alt=Twitter] {
-  margin-top: 2.25px;
-  margin-bottom: 1.5px;
-}
-main footer .active-footer .share-button-active {
-  width: 15px;
-  height: 13px;
-  color: white;
-  padding: 10px;
-  background: #6E8098;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: 12px;
+
+@media (min-width: 750px) {
+  main {
+    max-width: 730px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+  }
+  main img {
+    width: 285px;
+    height: 100%;
+    grid-row: 1/3;
+    border-radius: 10px 0 0 10px;
+  }
+  main .content {
+    margin: 32px 40px 20px 40px;
+  }
+  main .content h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .content p {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */
