@@ -1,3 +1,8 @@
+$text: hsl(217, 19%, 35%);
+$date: hsl(212, 23%, 69%);
+$share: hsl(210, 46%, 95%);
+$para: hsl(214, 17%, 51%);
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -32,10 +37,10 @@ body {
 
   &__heading {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0.2px;
-    color: #48556a;
+    color: $text;
     margin: 0;
     margin-top: 36px;
     padding: 0 32px;
@@ -43,10 +48,10 @@ body {
 
   &__para {
     font-weight: 500;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 0.813rem;
+    line-height: 1.25rem;
     letter-spacing: 0.121875px;
-    color: #6e8098;
+    color: $para;
     margin: 0;
     margin-top: 12px;
     padding: 0 32px;
@@ -70,24 +75,24 @@ body {
 
     &__name {
       font-weight: 700;
-      font-size: 13px;
-      line-height: 20px;
+      font-size: 0.813rem;
+      line-height: 1.25rem;
       letter-spacing: 0.121875px;
-      color: #48556a;
+      color: $text;
       margin: 0;
     }
 
     &__date {
       font-weight: 500;
-      font-size: 13px;
-      line-height: 20px;
+      font-size: 0.813rem;
+      line-height: 1.25rem;
       letter-spacing: 0.121875px;
-      color: #9daec2;
+      color: $date;
     }
   }
 
   &__active {
-    background: #48556a;
+    background: $text;
     border-radius: 0px 0px 10px 10px;
     display: flex;
     align-items: center;
@@ -98,11 +103,11 @@ body {
 
     &__text {
       font-weight: 500;
-      font-size: 13px;
-      line-height: 20px;
+      font-size: 0.813rem;
+      line-height: 1.25rem;
       text-transform: uppercase;
       letter-spacing: 5px;
-      color: #9daec2;
+      color: $date;
     }
 
     &__logos {
@@ -124,7 +129,7 @@ body {
   &__share {
     position: absolute;
     padding: 8px 8.5px;
-    background: #ecf2f8;
+    background: $share;
     border-radius: 50%;
     border: none;
     top: 35px;
@@ -153,8 +158,8 @@ body {
     &__heading {
       padding: 0;
       margin: 0;
-      font-size: 20px;
-      line-height: 28px;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
       letter-spacing: 0.25px;
     }
 
@@ -162,8 +167,8 @@ body {
       padding: 0;
       margin: 0;
       margin-top: 12px;
-      font-size: 13px;
-      line-height: 20px;
+      font-size: 0.813rem;
+      line-height: 1.25rem;
       letter-spacing: 0.121875px;
     }
 
@@ -191,7 +196,7 @@ body {
         left: 120px;
         position: absolute;
         border: 10px solid transparent;
-        border-top-color: hsl(217, 19%, 35%);
+        border-top-color: $text;
       }
     }
 

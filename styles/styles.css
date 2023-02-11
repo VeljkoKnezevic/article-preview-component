@@ -31,20 +31,20 @@ body {
 }
 .main__heading {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   letter-spacing: 0.2px;
-  color: #48556a;
+  color: hsl(217deg, 19%, 35%);
   margin: 0;
   margin-top: 36px;
   padding: 0 32px;
 }
 .main__para {
   font-weight: 500;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 0.813rem;
+  line-height: 1.25rem;
   letter-spacing: 0.121875px;
-  color: #6e8098;
+  color: hsl(214deg, 17%, 51%);
   margin: 0;
   margin-top: 12px;
   padding: 0 32px;
@@ -65,21 +65,21 @@ body {
 }
 .main__passive__name {
   font-weight: 700;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 0.813rem;
+  line-height: 1.25rem;
   letter-spacing: 0.121875px;
-  color: #48556a;
+  color: hsl(217deg, 19%, 35%);
   margin: 0;
 }
 .main__passive__date {
   font-weight: 500;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 0.813rem;
+  line-height: 1.25rem;
   letter-spacing: 0.121875px;
-  color: #9daec2;
+  color: hsl(212deg, 23%, 69%);
 }
 .main__active {
-  background: #48556a;
+  background: hsl(217deg, 19%, 35%);
   border-radius: 0px 0px 10px 10px;
   display: flex;
   align-items: center;
@@ -90,11 +90,11 @@ body {
 }
 .main__active__text {
   font-weight: 500;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 0.813rem;
+  line-height: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #9daec2;
+  color: hsl(212deg, 23%, 69%);
 }
 .main__active__logos {
   margin-left: 21px;
@@ -112,7 +112,7 @@ body {
 .main__share {
   position: absolute;
   padding: 8px 8.5px;
-  background: #ecf2f8;
+  background: hsl(210deg, 46%, 95%);
   border-radius: 50%;
   border: none;
   top: 35px;
@@ -138,16 +138,16 @@ body {
   .main__heading {
     padding: 0;
     margin: 0;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     letter-spacing: 0.25px;
   }
   .main__para {
     padding: 0;
     margin: 0;
     margin-top: 12px;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 0.813rem;
+    line-height: 1.25rem;
     letter-spacing: 0.121875px;
   }
   .main__passive {
